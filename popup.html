@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Shown then extention button is clicked-->
+<html lang="en">
+  <head>
+    <title>Extention Popup</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+    <script src="js/popup.js"></script>
+    <script defer src="js/countries.js"></script>
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="wrapper">
+        <form>
+          <div class="amount">
+            <p>Amount</p>
+            <input type="text" value="1" />
+          </div>
+          <div class="convert_box">
+            <div class="from">
+              <p>From</p>
+              <div class="select_input">
+                <!--<img src="https://flagcdn.com/h20/ua.png" alt="" />-->
+                <select>
+                  <option value="USA">USA</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="to">
+              <p>To</p>
+              <div class="select_input">
+                <!--<img src="https://flagcdn.com/h20/ua.png" alt="" />-->
+                <select>
+                  <option value="USA">USA</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <!--<div class="reverse">
+            <button type="button" class="swap-btn">Swap</button>
+          </div>-->
+          <div class="result">Getting Exchange Rate......</div>
+          <button type="button" class="convert-btn">Convert</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

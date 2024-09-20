@@ -1,0 +1,80 @@
+body {
+    margin: 10px;
+    white-space: nowrap;
+    background-color: #a1c7a4;
+  }
+  #container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .container form .from, 
+  .container form .to{
+      width: 100%;
+      color: #18392b;
+      border-color: #18392b;
+  }
+
+.amount
+{
+    color: #18392b;
+    border-radius: 15px;
+}
+.amount input{
+    color: #18392b;
+    background-color: #8fb6ab;
+    border: 1px solid #18392b;
+    border-radius: 15px ;
+    text-align: center;
+}
+.from{
+    color: #18392b;
+    align-items: center;
+    float: left;
+}
+.to{
+    float: right;
+
+}
+.from p{
+    align-self: center;
+}
+
+.result{
+    color: #18392b;
+    padding-top: 50%;
+}
+
+.select_input{
+  display: flex;
+  color: #18392b;
+  align-items: flex;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}  
+select{
+    color: #18392b;
+    background-color: #8fb6ab;
+    border-color: #18392b;
+    border-radius: 15px;
+}
+.convert-btn {
+    border: 1px solid #18392b;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #18392b;
+    background-color: #8fb6ab;
+    
+
+  }
+  
+  
+.convert_box{
+    align-items:first baseline;
+
+}
+    
